@@ -56,7 +56,7 @@ fap run hello.fap
 ```
 - Wait for Execution Results
 
-####That's all STEP!
+***That's all STEP!***
 
 ## To Uninstall
 
