@@ -32,15 +32,16 @@ Step-by-Step Installation:
 - Open PowerShell in: C:\Users\YourName\Desktop\FAP-<version>-Win
 - Run: Get-Content ".\&fapSetup.txt" | Invoke-Expression
 - Wait for:
-```powershell
+```
+<small>powershell</small>
 [OK] Installation complete!
 ```
 
 ### Step 3: Write Your First Program
 
 Create a new file called `hello.fap`:
-
-```fap
+```
+<small>fap</small>
 @None My First FAP Program
 out.Info("Hello, World!")
 ```
@@ -48,10 +49,10 @@ out.Info("Hello, World!")
 ### Step 4: Run Your Program
 
 Step-by-Step Execution:
-- Open Terminal/PowerShell
-  Press Win + R, type powershell or cmd (Or use Windows Terminal/Command Prompt)
+- Open Terminal/PowerShell (Press Win + R, type powershell or cmd, or use Windows Terminal/Command Prompt)
 - Run Your FAP Program
-```powershell
+```
+<small>powershell</small>
 fap run hello.fap
 ```
 - Wait for Execution Results
@@ -66,6 +67,7 @@ fap run hello.fap
 - Run ``uninstall-fap.bat``
 - Type 'Y' to confirm
 - Wait for:
-```batch
+```
+<small>batch</small>
 Process completed.
 ```
