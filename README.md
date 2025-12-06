@@ -30,7 +30,11 @@ Step-by-Step Installation:
 - Download: FAP-<version>-Win.zip
 - Extract to: FAP-<version>-Win
 - Open PowerShell in: C:\Users\YourName\Desktop\FAP-<version>-Win
-- Run: Get-Content ".\&fapSetup.txt" | Invoke-Expression
+- Run:
+```
+> powershell
+Get-Content ".\&fapSetup.txt" | Invoke-Expression
+```
 - Wait for:
 ```
 > powershell
