@@ -33,7 +33,7 @@ Step-by-Step Installation:
 - Run: Get-Content ".\&fapSetup.txt" | Invoke-Expression
 - Wait for:
 ```
-<small>powershell</small>
+> powershell
 [OK] Installation complete!
 ```
 
@@ -41,7 +41,7 @@ Step-by-Step Installation:
 
 Create a new file called `hello.fap`:
 ```
-<small>fap</small>
+> fap
 @None My First FAP Program
 out.Info("Hello, World!")
 ```
@@ -52,7 +52,7 @@ Step-by-Step Execution:
 - Open Terminal/PowerShell (Press Win + R, type powershell or cmd, or use Windows Terminal/Command Prompt)
 - Run Your FAP Program
 ```
-<small>powershell</small>
+> powershell
 fap run hello.fap
 ```
 - Wait for Execution Results
@@ -68,6 +68,6 @@ fap run hello.fap
 - Type 'Y' to confirm
 - Wait for:
 ```
-<small>batch</small>
+> batch
 Process completed.
 ```
