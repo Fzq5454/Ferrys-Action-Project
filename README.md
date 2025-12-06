@@ -34,6 +34,7 @@ Step-by-Step Installation:
 - Wait for:
 ```powershell
 [OK] Installation complete!
+```
 
 ### Step 3: Write Your First Program
 
@@ -42,6 +43,7 @@ Create a new file called `hello.fap`:
 ```fap
 @None My First FAP Program
 out.Info("Hello, World!")
+```
 
 ### Step 4: Run Your Program
 
@@ -51,6 +53,7 @@ Step-by-Step Execution:
 - Run Your FAP Program
 ```powershell
 fap run hello.fap
+```
 - Wait for Execution Results
 
 ####That's all STEP!
@@ -65,3 +68,4 @@ fap run hello.fap
 - Wait for:
 ```batch
 Process completed.
+```
